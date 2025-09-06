@@ -1,5 +1,0 @@
-Command: make -j 34 flash
-/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp: In function 'void debug_task(void*)':
-/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:215:5: warning: missing initializer for member 'esp_console_config_t::hint_color' [-Wmissing-field-initializers]
-  215 |     };
-      |     ^
