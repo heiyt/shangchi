@@ -1,0 +1,9 @@
+Command: make -j 34 flash
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp: In function 'void debug_task(void*)':
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:224:32: warning: 'void esp_vfs_dev_uart_use_driver(int)' is deprecated: Please use uart_vfs_dev_use_driver() instead [-Wdeprecated-declarations]
+  224 |     esp_vfs_dev_uart_use_driver(CONFIG_ESP_CONSOLE_UART_NUM);
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:12:
+/home/heiyt/esp/esp-idf/components/vfs/include/esp_vfs_dev.h:20:6: note: declared here
+   20 | void esp_vfs_dev_uart_use_driver(int uart_num) __attribute__((deprecated("Please use uart_vfs_dev_use_driver() instead")));
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,30 @@
+Command: make -j 34 flash
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp: In function 'void debug_task(void*)':
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:215:5: error: 'esp_console_dev_uart_config_t' was not declared in this scope; did you mean 'esp_console_repl_config_t'?
+  215 |     esp_console_dev_uart_config_t uart_config = ESP_CONSOLE_DEV_UART_CONFIG_DEFAULT();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |     esp_console_repl_config_t
+In file included from /home/heiyt/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:12,
+                 from /home/heiyt/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:21,
+                 from /home/heiyt/esp/esp-idf/components/esp_hw_support/include/spinlock.h:11,
+                 from /home/heiyt/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:65,
+                 from /home/heiyt/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:57,
+                 from /home/heiyt/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:69,
+                 from /home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:3:
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:219:48: error: 'uart_config' was not declared in this scope
+  219 |     ESP_ERROR_CHECK(esp_console_new_repl_uart(&uart_config, &repl_config, &repl));
+      |                                                ^~~~~~~~~~~
+/home/heiyt/esp/esp-idf/components/esp_common/include/esp_err.h:116:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  116 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:219:21: error: 'esp_console_new_repl_uart' was not declared in this scope; did you mean 'esp_console_repl_t'?
+  219 |     ESP_ERROR_CHECK(esp_console_new_repl_uart(&uart_config, &repl_config, &repl));
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/heiyt/esp/esp-idf/components/esp_common/include/esp_err.h:116:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  116 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+make[3]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:202: esp-idf/main/CMakeFiles/__idf_main.dir/shangchi_debug/shangchi_debug.cpp.obj] Error 1
+make[3]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/Makefile2:5629: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:2483: CMakeFiles/flash.dir/rule] Error 2
+make: *** [Makefile:286: flash] Error 2

@@ -1,0 +1,107 @@
+Command: /home/heiyt/.espressif/python_env/idf5.5_py3.12_env/bin/python /home/heiyt/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyACM0 -b 115200 --toolchain-prefix riscv32-esp-elf- --target esp32c3 --revision 3 --decode-panic backtrace /home/heiyt/Projects/ESP32Projects/shangchi_esp32/build/shangchi_esp32.elf /home/heiyt/Projects/ESP32Projects/shangchi_esp32/build/bootloader/bootloader.elf -m '/home/heiyt/.espressif/python_env/idf5.5_py3.12_env/bin/python' '/home/heiyt/esp/esp-idf/tools/idf.py'
+[0;32mI (228) heap_init: At 50000020 len 00001FC8 (7 KiB): RTCRAM[0m
+[0;32mI (234) spi_flash:ESP-ROM:esp32c3-api1-20210207[0m
+Build:Feb  7 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4004c0d8
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x15c0
+load:0x403cbf10,len:0xc34
+load:0x403ce710,len:0x2ff0
+entry 0x403cbf1a
+[0;32mI (24) boot: ESP-IDF v5.5 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Sep  5 2025 23:03:02[0m
+[0;32mI (25) boot: chip revision: v0.4[0m
+[0;32mI (25) boot: efuse block revision: v1.3[0m
+[0;32mI (28) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (32) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32c3: SPI Flash Size : 4MB[0m
+[0;32mI (39) boot: Enabling RNG early entropy source...[0m
+[0;32mI (44) boot: Partition Table:[0m
+[0;32mI (46) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (53) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (59) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (66) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0c640h ( 50752) map[0m
+[0;32mI (91) esp_image: segment 1: paddr=0001c668 vaddr=3fc8de00 size=014a0h (  5280) load[0m
+[0;32mI (92) esp_image: segment 2: paddr=0001db10 vaddr=40380000 size=02508h (  9480) load[0m
+[0;32mI (99) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=26fe4h (159716) map[0m
+[0;32mI (131) esp_image: segment 4: paddr=0004700c vaddr=40382508 size=0b770h ( 46960) load[0m
+[0;32mI (139) esp_image: segment 5: paddr=00052784 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (144) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (144) boot: Disabling RNG early entropy source...[0m
+[0;32mI (157) cpu_start: Unicore app[0m
+[0;32mI (165) cpu_start: Pro cpu start user code[0m
+[0;32mI (165) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (165) app_init: Application information:[0m
+[0;32mI (166) app_init: Project name:     shangchi_esp32[0m
+[0;32mI (170) app_init: App version:      1[0m
+[0;32mI (173) app_init: Compile time:     Sep  5 2025 23:03:09[0m
+[0;32mI (178) app_init: ELF file SHA256:  176488521...[0m
+[0;32mI (183) app_init: ESP-IDF:          v5.5[0m
+[0;32mI (186) efuse_init: Min chip rev:     v0.3[0m
+[0;32mI (190) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (194) efuse_init: Chip rev:         v0.4[0m
+[0;32mI (198) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (204) heap_init: At 3FC90370 len 0002FC90 (191 KiB): RAM[0m
+[0;32mI (209) heap_init: At 3FCC0000 len 0001C710 (113 KiB): Retention RAM[0m
+[0;32mI (216) heap_init: At 3FCDC710 len 00002950 (10 KiB): Retention RAM[0m
+[0;32mI (222) heap_init: At 50000020 len 00001FC8 (7 KiB): RTCRAM[0m
+[0;32mI (228) spi_flash: detected chip: generic[0m
+[0;32mI (231) spi_flash: flash io: dio[0m
+[0;33mW (234) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (243) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (249) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (256) main_task: Started on CPU0[0m
+[0;32mI (256) main_task: Calling app_main()[0m
+[0;32mI (256) irq:: init[0m
+[0;32mI (266) FlashInfo: AHT10 initialized based on sensors_enable[0m
+[0;32mI (266) AXP2101: Init PMU SUCCESS![0m
+[0;32mI (286) AXP2101: DCDC=======================================================================[0m
+
+[0;32mI (286) AXP2101: DC1  : +   Voltage:3300 mV [0m
+
+[0;32mI (296) AXP2101: DC2  : +   Voltage:1200 mV [0m
+
+[0;32mI (296) AXP2101: DC3  : +   Voltage:3300 mV [0m
+
+[0;32mI (296) AXP2101: DC4  : +   Voltage:1800 mV [0m
+
+[0;32mI (306) AXP2101: DC5  : +   Voltage:3700 mV [0m
+
+[0;32mI (306) AXP2101: ALDO=======================================================================[0m
+
+[0;32mI (316) AXP2101: ALDO1: +   Voltage:1800 mV[0m
+
+[0;32mI (326) AXP2101: ALDO2: +   Voltage:2800 mV[0m
+
+[0;32mI (326) AXP2101: ALDO3: +   Voltage:3300 mV[0m
+
+[0;32mI (326) AXP2101: ALDO4: +   Voltage:3000 mV[0m
+
+[0;32mI (336) AXP2101: BLDO=======================================================================[0m
+
+[0;32mI (346) AXP2101: BLDO1: +   Voltage:3300 mV[0m
+
+[0;32mI (346) AXP2101: BLDO2: +   Voltage:3300 mV[0m
+
+[0;32mI (346) AXP2101: CPUSLDO====================================================================[0m
+
+[0;32mI (356) AXP2101: CPUSLDO: + Voltage:900 mV[0m
+
+[0;32mI (366) AXP2101: DLDO=======================================================================[0m
+
+[0;32mI (366) AXP2101: DLDO1: -   Voltage:900 mV[0m
+
+[0;32mI (376) AXP2101: DLDO2: -   Voltage:1300 mV[0m
+
+[0;32mI (376) AXP2101: ===========================================================================[0m
+
+[0;32mI (406) AXP2101: battery percentage:98 %[0m
+
+Shangchi ESP32 Console System
+esp32> I (406) irq:: deinit
+[0;32mI (406) main_task: Returned from app_main()[0m
+esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp32> esp

@@ -1,0 +1,5 @@
+Command: make -j 34 flash
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp: In function 'void register_axp2101_commands()':
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:321:5: warning: missing initializer for member 'esp_console_cmd_t::func_w_context' [-Wmissing-field-initializers]
+  321 |     };
+      |     ^

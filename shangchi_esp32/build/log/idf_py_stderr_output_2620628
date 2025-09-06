@@ -1,0 +1,13 @@
+Command: make -j 34 all
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:98:1: error: '注册命令' does not name a type
+   98 | 注册命令
+      | ^~~~~~~~
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:28:12: warning: 'int axp_batt(int, char**)' defined but not used [-Wunused-function]
+   28 | static int axp_batt(int argc, char **argv) {
+      |            ^~~~~~~~
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:21:12: warning: 'int axp_status(int, char**)' defined but not used [-Wunused-function]
+   21 | static int axp_status(int argc, char **argv) {
+      |            ^~~~~~~~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:202: esp-idf/main/CMakeFiles/__idf_main.dir/shangchi_debug/shangchi_debug.cpp.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:5629: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

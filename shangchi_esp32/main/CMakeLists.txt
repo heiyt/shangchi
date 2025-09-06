@@ -1,0 +1,23 @@
+idf_component_register(
+        SRCS
+        "main.cpp"
+        "soft_iic/soft_iic.cpp"
+        "irq/irq.cpp"
+        "axp2101/port_axp2101.cpp"
+        "axp2101/port_i2c_axp2101.cpp"
+        "flash_info/flash_info.cpp"
+        "wifi/wifi.cpp"
+        "oled/oled.cpp"
+        "aht10/aht10.cpp"
+        "shangchi_debug/shangchi_debug.cpp"
+        INCLUDE_DIRS
+        "."
+        "soft_iic"
+        "irq"
+        "wifi"
+        "oled"
+        "aht10"
+        "axp2101"
+        "flash_info"
+        "shangchi_debug"
+)

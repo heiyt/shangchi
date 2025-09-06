@@ -1,0 +1,53 @@
+Command: make -j 34 flash
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp: In function 'void register_axp2101_commands()':
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:309:5: warning: missing initializer for member 'esp_console_cmd_t::func_w_context' [-Wmissing-field-initializers]
+  309 |     };
+      |     ^
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:309:5: warning: missing initializer for member 'esp_console_cmd_t::context' [-Wmissing-field-initializers]
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:318:5: warning: missing initializer for member 'esp_console_cmd_t::func_w_context' [-Wmissing-field-initializers]
+  318 |     };
+      |     ^
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:318:5: warning: missing initializer for member 'esp_console_cmd_t::context' [-Wmissing-field-initializers]
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:333:5: warning: missing initializer for member 'esp_console_cmd_t::func_w_context' [-Wmissing-field-initializers]
+  333 |     };
+      |     ^
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:333:5: warning: missing initializer for member 'esp_console_cmd_t::context' [-Wmissing-field-initializers]
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:347:5: warning: missing initializer for member 'esp_console_cmd_t::func_w_context' [-Wmissing-field-initializers]
+  347 |     };
+      |     ^
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:347:5: warning: missing initializer for member 'esp_console_cmd_t::context' [-Wmissing-field-initializers]
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:362:5: warning: missing initializer for member 'esp_console_cmd_t::func_w_context' [-Wmissing-field-initializers]
+  362 |     };
+      |     ^
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:362:5: warning: missing initializer for member 'esp_console_cmd_t::context' [-Wmissing-field-initializers]
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:376:5: warning: missing initializer for member 'esp_console_cmd_t::func_w_context' [-Wmissing-field-initializers]
+  376 |     };
+      |     ^
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:376:5: warning: missing initializer for member 'esp_console_cmd_t::context' [-Wmissing-field-initializers]
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp: In function 'void register_aht10_commands()':
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:387:5: warning: missing initializer for member 'esp_console_cmd_t::func_w_context' [-Wmissing-field-initializers]
+  387 |     };
+      |     ^
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:387:5: warning: missing initializer for member 'esp_console_cmd_t::context' [-Wmissing-field-initializers]
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp: In function 'void register_oled_commands()':
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:398:5: warning: missing initializer for member 'esp_console_cmd_t::func_w_context' [-Wmissing-field-initializers]
+  398 |     };
+      |     ^
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:398:5: warning: missing initializer for member 'esp_console_cmd_t::context' [-Wmissing-field-initializers]
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:413:5: warning: missing initializer for member 'esp_console_cmd_t::func_w_context' [-Wmissing-field-initializers]
+  413 |     };
+      |     ^
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:413:5: warning: missing initializer for member 'esp_console_cmd_t::context' [-Wmissing-field-initializers]
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp: In function 'void register_system_commands()':
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:429:5: warning: missing initializer for member 'esp_console_cmd_t::func_w_context' [-Wmissing-field-initializers]
+  429 |     };
+      |     ^
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:429:5: warning: missing initializer for member 'esp_console_cmd_t::context' [-Wmissing-field-initializers]
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:438:5: warning: missing initializer for member 'esp_console_cmd_t::func_w_context' [-Wmissing-field-initializers]
+  438 |     };
+      |     ^
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:438:5: warning: missing initializer for member 'esp_console_cmd_t::context' [-Wmissing-field-initializers]
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:447:5: warning: missing initializer for member 'esp_console_cmd_t::func_w_context' [-Wmissing-field-initializers]
+  447 |     };
+      |     ^
+/home/heiyt/Projects/ESP32Projects/shangchi_esp32/main/shangchi_debug/shangchi_debug.cpp:447:5: warning: missing initializer for member 'esp_console_cmd_t::context' [-Wmissing-field-initializers]

@@ -1,0 +1,7 @@
+Command: make -j 34 all
+/home/heiyt/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: esp-idf/freertos/libfreertos.a(app_startup.c.obj): in function `main_task':
+/home/heiyt/esp/esp-idf/components/freertos/app_startup.c:206:(.text.main_task+0x7a): undefined reference to `app_main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/shangchi_esp32.elf.dir/build.make:656: shangchi_esp32.elf] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2579: CMakeFiles/shangchi_esp32.elf.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
