@@ -1,3 +1,7 @@
+## esp32c3-axp2101开发板  
+
+<img width="1147" height="797" alt="image" src="https://github.com/user-attachments/assets/64245a2c-7c3c-41c6-9229-d62f6daec0ce" />  
+
 ## 可以使用idf.py monitor命令直接在终端调试，提供了一些命令：  
 
 <img width="543" height="309" alt="image" src="https://github.com/user-attachments/assets/e5123a74-b407-4f51-9ddc-47d954390d39" />  
